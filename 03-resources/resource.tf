@@ -1,5 +1,5 @@
 resource "aws_instance" "sample" {
-  ami                    = "ami-0974e63a6f2a1aed7"
+  ami                    = "ami-d06ef2c7"
   instance_type          = "t3.micro"
   vpc_security_group_ids = [aws_security_group.allow_tls.id]
 }
